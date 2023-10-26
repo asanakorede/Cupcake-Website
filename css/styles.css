@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(../img/44.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+}
+
+
+.header {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header li {
+    padding-top: 40px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.header-cta li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-cta {
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.header-cta li a:hover {
+    text-decoration: underline;
+    transition: 0.4s ease-in-out;
+}
+
+.icon {
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.icon-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-2 {
+    padding-top: 160px;
+    padding-left: 50px;
+}
+
+
+button {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 400px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: crimson;
+    padding-left: 60px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+span {
+    color: midnightblue;
+}
