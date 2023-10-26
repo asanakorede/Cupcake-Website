@@ -4,7 +4,7 @@ body {
     background-image: url(../img/44.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200vh;
+    height: 150vh;
 }
 
 
@@ -48,11 +48,6 @@ body {
     justify-content: space-between;
 }
 
-.cta-2 {
-    padding-top: 160px;
-    padding-left: 50px;
-}
-
 
 button {
     background-color: white;
@@ -60,7 +55,6 @@ button {
     border-radius: 20px;
     border: 0;
     cursor: pointer;
-    margin-bottom: 400px;
 }
 
 button:hover {
@@ -73,10 +67,20 @@ p {
     font-size: 70px;
     color: crimson;
     padding-left: 60px;
-    padding-bottom: 70px;
+     padding-bottom: 70px; 
     text-align: center;
 }
 
 span {
     color: midnightblue;
+}
+
+.cta-text p {
+    padding-top: 160px;
+    padding-left: 50px;
+}
+
+.cta-btn{
+    padding-left: 80px;
+    padding-top: 500px;
 }
